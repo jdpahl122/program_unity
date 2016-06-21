@@ -1,3 +1,33 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Columns
+.column-left{ float: left; width: 33%; height: 50px; }
+.column-right{ float: right; width: 33%; height: 50px; }
+.column-center{ display: inline-block; width: 33%; height: 50px; }
+.column-left-large{ float: left; width: 50%; height: 500px }
+.column-right-large{ float: right; width: 50%; height: 500px }
+
+.verticalLine-red {
+    border-left: thin solid #ff0000;
+}
+
+.verticalLine-gray{
+  border-left: thin solid #eaeaea;
+}
+
+.no-margin {
+   margin: 0;
+}
+
+.container-large {
+  margin-top: 40px; 
+  height: 600px;
+}
+
+.container-medium {
+  margin-top: 40px;
+  height: 500px;
+}
